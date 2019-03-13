@@ -1,0 +1,40 @@
+{
+  "Education": [
+    {
+      "school": "General Assembly",
+      "degree": "Full Stack Web Development",
+      "year": 2017
+    },
+    {
+      "school": "Udacity",
+      "degree": "React",
+      "year": 2018
+    }
+  ],
+  "Experience": [
+    {
+      "title": "Web Developer",
+      "company": "Freelance",
+      "dates": "01/2018 - Present"
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Wayfair",
+      "dates": "07/2017 - 12/2017"
+    },
+    {
+      "title": "Web Developer",
+      "company": "Layerflow",
+      "dates": "05/2017 - 8/2017"
+    }
+  ],
+  "Tech Skills": [
+    "HTML",
+    "CSS",
+    "Javascipt",
+    "React.js",
+    "Node.js",
+    "Php"
+  ],
+  "Contact": ["mk@mariokennedy.com"]
+}
