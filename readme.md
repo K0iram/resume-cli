@@ -4,6 +4,5 @@ This is my resume as a CLI
 
 To Run:
 
-1. ```npx mariosresume```
-2. ```mariosresume```
+1. Run ```npx mariosresume``` in the terminal
 3. Enjoy my accomplishments
