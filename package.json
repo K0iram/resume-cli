@@ -1,7 +1,7 @@
 {
-  "name": "koiram-resume",
+  "name": "mariosresume",
   "version": "1.0.1",
-  "description": "Mario Kennedy-Kavouras Resume CLI",
+  "description": "Mario Kennedy Resume CLI",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,6 +21,6 @@
     "inquirer": "^6.2.2"
   },
   "bin": {
-    "koiram-resume": "./index.js"
+    "mariosresume": "./index.js"
   }
 }

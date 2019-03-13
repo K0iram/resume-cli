@@ -1,20 +1,19 @@
 #!/usr/bin/env node
-"use strict"
+"use strict";
 
 const inquirer = require("inquirer")
 const chalk = require("chalk")
 
-const response = chalk.bold.blue
-const divide
+const response = chalk.bold.green;
 
 const resume = require("./resume.json")
 
 const resumePrompts = {
   type: "list",
   name: "resumeOptions",
-  message: "What would you like to know about?",
+  message: "What do you want to know about me?",
   choices: [...Object.keys(resume), "Exit"]
-}
+};
 
 function main() {
   console.log("Hello,My name is Mario Kennedy, welcome to my resume.")
