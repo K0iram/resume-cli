@@ -15,12 +15,12 @@ const resumePrompts = {
   choices: [...Object.keys(resume), "Exit"]
 };
 
-function main() {
+const main = () => {
   console.log("Hello,My name is Mario Kennedy, welcome to my resume.")
   resumeHandler()
 }
 
-function resumeHandler() {
+const resumeHandler = () => {
   inquirer.prompt(resumePrompts).then(answer => {
     if (answer.resumeOptions == "Exit") {
       return
