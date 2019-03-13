@@ -1,6 +1,6 @@
 {
   "name": "mariosresume",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Mario Kennedy Resume CLI",
   "main": "index.js",
   "scripts": {
