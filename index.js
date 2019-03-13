@@ -1,10 +1,10 @@
 #!/usr/bin/env node
-"use strict";
+"use strict"
 
 const inquirer = require("inquirer")
 const chalk = require("chalk")
 
-const response = chalk.bold.green;
+const response = chalk.bold.green
 
 const resume = require("./resume.json")
 
@@ -13,7 +13,7 @@ const resumePrompts = {
   name: "resumeOptions",
   message: "What do you want to know about me?",
   choices: [...Object.keys(resume), "Exit"]
-};
+}
 
 const main = () => {
   console.log("Hello,My name is Mario Kennedy, welcome to my resume.")
@@ -22,10 +22,12 @@ const main = () => {
 
 const resumeHandler = () => {
   inquirer.prompt(resumePrompts).then(answer => {
+    const option = answer.resumeOptions
+
     if (answer.resumeOptions == "Exit") {
       return
     }
-    const option = answer.resumeOptions
+
     console.log(response("--------------------------------------"))
     if(option === 'Experience') {
       resume[`${option}`].forEach(info => {
