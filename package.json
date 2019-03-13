@@ -1,6 +1,6 @@
 {
   "name": "koiram-resume",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mario Kennedy-Kavouras Resume CLI",
   "main": "index.js",
   "scripts": {
